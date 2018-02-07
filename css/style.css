@@ -1,0 +1,166 @@
+body
+{
+    background-image: url('../obrazki/tlo.jpg');
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#container
+{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+a
+{
+    color:#16BAC9;
+    text-decoration: none;
+    border-bottom: 1px dotted gray;
+}
+
+a:hover
+{
+    color:teal;
+}
+
+/* gorna czesc strony */
+#top_part_container
+{
+    width: 1000px;
+    height: 200px;
+    background-color: #273A4A;
+    border: 0px solid #000;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 2px -2px 4px #000;
+    margin: 10px auto 0px auto;
+    position: relative;
+    background: -moz-linear-gradient(top, #5B728A, #273A4A);
+	background: -webkit-gradient(linear, left top, left bottom, from(#5B728A), to(#273A4A));
+    
+}
+
+#logo
+{
+    font-size: 70px;
+    font-family: 'Comic Sans MS', Sans-serif;
+    font-weight: bold;
+    margin: 70px 50px 20px;
+    line-height: 1.1em;
+    position: absolute;
+    
+    
+    
+}
+
+#podlogo
+{
+    font-size: 20px;
+    font-family: 'Comic Sans MS', Sans-serif;
+    margin: 160px 140px;
+    line-height: 0px;
+    position: absolute;
+}
+
+#contact_box
+{
+    position: absolute;
+    margin-top: 20px;
+    right: 20px;
+    font-size: 11px;
+    color: #FFF;
+    
+}
+
+#contact_box a
+{
+    border-bottom: none;
+}
+
+#main_menu
+{
+    position: absolute;
+     left: 390px;
+    bottom: -1px;
+}
+
+#main_menu_list li
+{
+    list-style: none;
+    float: left;
+   
+}
+
+#main_menu_list a
+{
+    display: inline-block;
+    background-color: #0D2D30;
+    border-bottom: none;
+    height: 25px;
+    padding: 0px 10px;
+    font-family: verdana, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color:#FFF;
+    padding-top: 10px;
+    box-shadow: -1px 3px 7px #000 inset;
+}
+
+#main_menu_list li a:hover, #main_menu_list li.actual a
+{
+    background-color: #19565C;
+}
+
+/* srodkowa czesc strony */
+#middle_menu
+{
+    width: 1000px;
+    height: 40px;
+    margin: auto;
+    background: -moz-linear-gradient(top, #273A4A, #5B728A);
+	background: -webkit-gradient(linear, left top, left bottom, from(#273A4A), to(#5B728A));
+     border-top: 2px solid black;
+    /* box-shadow: 3px 1px 10px #000 inset; */
+}
+
+#middle_menu li
+{
+    display: inline-block;
+    float: left;
+    margin-top: -4px;
+    margin-left: 20px;
+}
+
+#middle_menu li a
+{
+    border-bottom: none;
+    color: #FFF;
+    font-family: verdana, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    font-style: italic;
+    margin-right: 26px;
+}
+
+#middle_menu li a:hover
+{
+    color:#9CECF7;
+}
+
+.breake
+{
+    margin-right: 26px;
+    color: #FFF;
+}
+
+#list .drop_down_list li
+{
+   
+    display: none; 
+}
+
+#list li:hover
+{
+    display: block;
+}
