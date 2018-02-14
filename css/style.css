@@ -30,8 +30,6 @@ a:hover
 {
     width: 1000px;
     height: 200px;
-    background-color: #273A4A;
-    border: 0px solid #000;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 2px -2px 4px #000;
     margin: 10px auto 0px auto;
@@ -112,7 +110,7 @@ a:hover
     background-color: #19565C;
 }
 
-/* srodkowa czesc strony */
+/* srodkowe menu */
 #middle_menu
 {
     width: 1000px;
@@ -120,7 +118,8 @@ a:hover
     margin: auto;
     background: -moz-linear-gradient(top, #273A4A, #5B728A);
 	background: -webkit-gradient(linear, left top, left bottom, from(#273A4A), to(#5B728A));
-     border-top: 2px solid black;
+    border-top: 2px solid black;
+    box-shadow: 2px 0px 4px #000;
     /* box-shadow: 3px 1px 10px #000 inset; */
 }
 
@@ -166,7 +165,6 @@ a:hover
     position: absolute;
     top: 28px;
     margin-left: -57px;
-    width: 
 
 }
 
@@ -199,5 +197,86 @@ a:hover
 #list li:hover .drop_down_list li
 {
     display: block;
+}
+
+/* środkowa część strony */
+
+#content
+{
+    width: 1000px;
+    background-color: #b3c3db;
+    margin: auto;
+    border-top: 2px solid black;
+    box-shadow: 2px 0px 3px #000;
+}
+
+#text
+{
+    text-align: justify;
+    padding: 15px 50px;
+    font-family: 'trebuchet MS', sans-serif;
+    line-height: 150%;
+    font-size: 13px;
+    width: 650px;
+    height: auto;
+}
+
+h1
+{
+    font-size: 20px;
+    text-align: center;
+    color: #273A4A;
+    margin-bottom: 20px;
+    font-family: 'Comic Sans MS', Sans-serif;
+    font-style: italic;
+    line-height: 120%;
+}
+
+p a
+{
+    color: #029bba;
+}
+
+#main_images
+{
+    float: right;
+    padding: 0 50px;
+}
+
+#main_images img
+{
+    width: 200px;
+    clear: right;
+    float: right;
+    padding: 31px 0;
+}
+
+/* dolna czesc strony */
+
+#bottom_part_container
+{
+    width: 1000px;
+    height: 200px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 0px 4px #000;
+    margin: 0px auto 10px auto;
+    position: relative;
+    background: -moz-linear-gradient(top, #5B728A, #273A4A);
+	background: -webkit-gradient(linear, left top, left bottom, from(#5B728A), to(#273A4A));
+    border-top: 2px solid black;
+}
+
+#bottom_part_container img
+{
+    width: 40px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 30px 0 0 30px;
+}
+
+#top_newsletter
+{
+    font-size: 15px;
+    
 }
 
